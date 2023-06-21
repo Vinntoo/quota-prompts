@@ -14,19 +14,22 @@ export const metadata = {
 const RootLayout = ({children}) => {
   return (
     <html lang="en">
-      <body>
-        <div className="main">
-          <div className="gradient" />
+      <Provider>
+        <body>
+          <div className="main">
+            <div className="gradient" />
 
-        </div>
+          </div>
 
-        <main className="app">
-          <Nav/>
-          {children}
+          <main className="app">
+            <Nav/>
+            {children}
 
-        </main>
+          </main>
 
-      </body>
+        </body>
+      </Provider>
+
         
     </html>
   )
