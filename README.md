@@ -1,34 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Quota Prompt Web Application
 
-## Getting Started
+Welcome to the Quota Prompts! This is a simple web application built using Next.js that allows users to prompt for various types of information, providing a seamless and interactive user experience.
 
-First, run the development server:
+Introduction
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The Quota Prompts is designed to demonstrate the power and flexibility of Next.js, a popular React framework for server-rendered applications. With this app, users can receive interactive prompts to provide input for various purposes, such as feedback, data collection, or simply for fun!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+-Interactive prompts that allow users to provide input.
+-Customizable prompts for different use cases.
+-Seamless user interface with real-time feedback.
+-Easy integration with backend services if required.
+-Mobile-friendly design for a smooth experience on all devices.
+-Getting Started
+-Follow the instructions below to set up the Quota Prompts on your local machine.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Prerequisites
 
-## Learn More
+-Node.js (version 12 or higher) and npm (Node Package Manager) installed on your system.
 
-To learn more about Next.js, take a look at the following resources:
+Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Quota Prompts is built with the following technologies:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Next.js - The core framework for server-rendered React applications.
+React - A JavaScript library for building user interfaces.
+HTML/CSS - For structuring and styling the application.
+JavaScript & Typescript - The programming language used for app logic.
+npm - Node Package Manager for installing and managing dependencies.
+Contributing
+We welcome contributions from the community! If you'd like to contribute to Quota Prompts, please follow these steps:
 
-## Deploy on Vercel
+-Fork the repository on GitHub.
+-Create a new branch with a descriptive name: git checkout -b feature/your-feature-name.
+-Make your changes and commit them with clear commit messages.
+-Push your changes to your forked repository.
+-Submit a pull request to the main repository.
+-Please ensure your code adheres to the project's coding standards, and include tests if applicable.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+License
+Quota Prompts is open-source software licensed under the MIT License. Feel free to use, modify, and distribute the code for personal or commercial purposes.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+We hope you enjoy using Quota Prompts. If you have any questions, feedback, or suggestions, please feel free to reach out to us. Happy prompting!
