@@ -12,7 +12,7 @@ const Home = () => {
         <span className="orange_gradient text-center">AI-Powered Prompts</span>
       </h1>
       <p className="desc text-center">
-        Search and navigate for common AI Proompts
+        Search and navigate for common AI Prompts
       </p>
 
 

@@ -41,7 +41,6 @@ const {data: session} = useSession();
       </Link>
 
 
-
       {/* {Desktop Navigation} */}
       <div className="sm:flex  hidden">
         {session?.user ? (
@@ -66,8 +65,6 @@ const {data: session} = useSession();
             
             </Link>
 
-          
-
           </div>
         ): (
           <>
@@ -78,8 +75,7 @@ const {data: session} = useSession();
                     type="button"
                     key={provider.name}
                     onClick={() => signIn(provider.id)}
-                    className="black_btn"
-                    
+                    className="black_btn"                   
                     >
                       Sign In
 
@@ -101,8 +97,7 @@ const {data: session} = useSession();
                 height={37}
                 className="rounded-full"
                 alt="profile"
-                onClick={() => settoggleDropdown((prev) => !prev)}
-              
+                onClick={() => settoggleDropdown((prev) => !prev)}             
               />
 
               {toggleDropdown && (
@@ -123,8 +118,7 @@ const {data: session} = useSession();
                   onClick={() => {settoggleDropdown(false);
                       signOut();
                   }}
-                  className="mt-5 w-full black_btn"
-                
+                  className="mt-5 w-full black_btn" 
                   >
                     Sign Out
 
